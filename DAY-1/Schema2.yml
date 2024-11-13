@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: jaffle_shop  # Schema where the raw data resides
+    database: raw
+    tables:
+      - name: hks_customers  # Table name in Snowflake
+
+
+
+  - name: jaffle_shop  # Schema where the raw data resides
+    database: raw
+    tables:
+      - name: hks_orders # Table name in Snowflake
